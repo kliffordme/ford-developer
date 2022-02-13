@@ -7,7 +7,96 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+#navLogo{
+  width: 25px;
+}
+
+
+#title{
+  font-size: 2rem;
+}
+
+#projectImage{
+  width: 250px;
+}
+
+#languageImage{
+  max-width: 100px;
+}
+
+#languageAdjustments{
+  padding: 2rem;
+  margin: 2rem;
+}
+
+#home{
+  background-image: url('/public/programmer-phone.png');
+  width: 100%;
+  height: 100vh;
+}
+
+
+@media (min-width: 660px) {
+  #home{
+    background-image: url('/public/phoneprogram650.png');
+    width: 100%;
+    height: 100vh;
+  }
+
+
+}
+  
+@media (min-width: 900px) {
+  #home{
+    background-image: url('/public/programmer1000.png');
+    width: 100%;
+    height: 100vh;
+  }
+
+  #projectImage{
+    width: 400px;
+  }
+
+  #title{
+    font-size: 3rem;
+  }
+
+  #project{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(42, 42, 46);
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #projectDetails{
+    margin-top: 2rem;
+  }
+
+  #contactMain{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(42, 42, 46);
+    width: 50%;
+    margin: 0 auto;
+  }
+
+}
+
+@media (min-width: 1920px) {
+  #home{
+    background-image: url('/public/programmer.png');
+    width: 100%;
+    height: 100vh;
+  }
+}
+
