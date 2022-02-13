@@ -45,9 +45,9 @@ export const Projects = () => {
                 </a>
                 <div id="projectDetails" className=''>
                     <div className=' d-flex justify-content-start'>
-                        <div id='projectName'>
+                        <h4>
                         iLearn(Staging)
-                        </div>
+                        </h4>
                         <a href='https://stage.ilearn-ksmhub.com/admin/login' target="_blank" className=' text-white mx-2'>Live</a>
                     </div>
                     <div id='details'>
