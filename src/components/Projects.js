@@ -40,7 +40,7 @@ export const Projects = () => {
               Current Job
           </div>
             <div id='project' className='rounded  p-5 mt-5 shadow-lg'>
-                <a href='https://vigilant-meninsky-56e3d6.netlify.app/' className='p-4 d-flex justify-content-center' target="_blank">
+                <a href='https://stage.ilearn-ksmhub.com/admin/login' className='p-4 d-flex justify-content-center' target="_blank">
                 <img id='projectImage' src='iLearn.png' className="mx-2 " />
                 </a>
                 <div id="projectDetails" className=''>
