@@ -8,14 +8,14 @@ export const Projects = () => {
               Recent Projects
       </div>
       <div>
-        <div className='mx-5 position-relative'>
+        <div className='position-relative'>
             <div id='project' className='rounded p-5 mt-5 shadow-lg'>
               <a href='https://sleepy-wozniak-f4c1cb.netlify.app/' className='p-4 mb-2 d-flex justify-content-center' target="_blank">
               <img src='blog-app.png' id='projectImage' className="" />
               </a>
                 <div className=''  id='projectDetails'>
                   <h4>YourBlog</h4>
-                  <p>a react-laravel full stack application where users can post, like and follow other users.</p>
+                  <p>a react-laravel full stack application where users can post, comment, like and follow other users.</p>
                   <p>programming languages used: React js, Javascript, Laravel, PHP.</p>
                   <p>Styling: CSS and Boostrap</p>
                   <a href='https://sleepy-wozniak-f4c1cb.netlify.app/' target="_blank" className='text-white mx-2'>Live</a>
@@ -36,7 +36,7 @@ export const Projects = () => {
                 <img src='pet-app.png' id='projectImage' className="mx-2" />
                 </a>
             </div>
-            <div className='pt-5' id="title">
+            <div className='pt-5 mx-5' id="title">
               Current Job
           </div>
             <div id='project' className='rounded  p-5 mt-5 shadow-lg'>

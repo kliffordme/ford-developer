@@ -34,7 +34,13 @@ code {
   max-width: 100px;
 }
 
+#project{
+  background-color: rgb(42, 42, 46);
+}
+
 #languageAdjustments{
+  background-color: rgb(42, 42, 46);
+
   padding: 2rem;
   margin: 2rem;
 }
@@ -51,6 +57,12 @@ code {
     background-image: url('/public/phoneprogram650.png');
     width: 100%;
     height: 100vh;
+  }
+
+  #project{
+    background-color: rgb(42, 42, 46);
+    width: 80%;
+    margin: 0 auto;
   }
 
 
