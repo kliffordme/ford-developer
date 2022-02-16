@@ -31,6 +31,9 @@ code {
   width: 150px;
 }
 
+#profileContainer{
+  padding: 1rem;
+}
 
 #navLogo{
   width: 25px;
