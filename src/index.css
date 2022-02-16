@@ -13,7 +13,18 @@ code {
     monospace;
 }
 
+#profile{
+  height: 100%;
+}
 
+#profileDetails{
+  margin: 1rem;
+  padding: 1rem;
+}
+
+#profileImage{
+  width: 150px;
+}
 
 
 #navLogo{
@@ -65,6 +76,7 @@ code {
     margin: 0 auto;
   }
 
+  
 
 }
   
@@ -101,6 +113,35 @@ code {
     background-color: rgb(42, 42, 46);
     width: 50%;
     margin: 0 auto;
+  }
+
+  
+  #profileDetails{
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
+  #profileImage{
+    width: 250px;
+  }
+
+  #profileContainer{
+
+    width: 90%;
+    margin: 2rem auto;
+  }
+  
+
+
+
+}
+
+@media (min-width: 1200px) {
+  
+    
+  #profileImage{
+    width: 300px;
   }
 
 }

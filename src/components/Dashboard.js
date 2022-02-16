@@ -5,6 +5,7 @@ import { Projects } from './Projects'
 import { Footer } from './Footer'
 import { Contact } from './Contact'
 import { Languages } from './Languages'
+import { Profile } from './Profile'
 
 const Dashboard = () => {
   return (
@@ -12,6 +13,7 @@ const Dashboard = () => {
         <ProfileNavbar />
         <MainPage />
         <Projects />
+        <Profile />
         <Languages />
         <Contact />
         <Footer />
