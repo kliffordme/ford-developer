@@ -10,6 +10,7 @@ export const ProfileNavbar = () => {
       <Nav className="me-auto">
         <Nav.Link href="#home">Home</Nav.Link>
         <Nav.Link href="#projects">Projects</Nav.Link>
+        <Nav.Link href="#profile">Profile</Nav.Link>
         <Nav.Link href="#contact">Contact Me</Nav.Link>
       </Nav>
       <a href='https://www.facebook.com/klifford.orquillas/' className='mx-2' target="_blank">
