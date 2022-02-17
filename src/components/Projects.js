@@ -10,10 +10,10 @@ export const Projects = () => {
       <div>
         <div className='position-relative'>
             <div id='project' className=' p-5 mt-5 shadow-lg'>
-              <a href='https://sleepy-wozniak-f4c1cb.netlify.app/' className='p-5 mb-2 d-flex justify-content-center' target="_blank">
+              <a href='https://sleepy-wozniak-f4c1cb.netlify.app/' id="projectLink" className='shadow-lg p-5 mb-2 d-flex justify-content-center' target="_blank">
               <img src='blog-app.png' id='projectImage' className="" />
               </a>
-                <div className='shadow-lg'  id='projectDetails'>
+                <div className=''  id='projectDetails'>
                   <h4>
                     <b>
                     YourBlog
@@ -28,7 +28,7 @@ export const Projects = () => {
             </div>
 
             <div id='project' className=' p-5 mt-5 shadow-lg'>
-                <div className='shadow-lg' id='projectDetails'>
+                <div className='' id='projectDetails'>
                   <h4>
                     <b>
                     Ford's Pet Shop
@@ -40,18 +40,18 @@ export const Projects = () => {
                   <a href='https://vigilant-meninsky-56e3d6.netlify.app/' target="_blank" className='text-white m-2'>Live</a>
                   <a href='https://github.com/kliffordme/pet-shop-react' target="_blank" className='text-white m-2'>Code</a>
                 </div>
-                <a href='https://vigilant-meninsky-56e3d6.netlify.app/' className='p-5 d-flex justify-content-center' target="_blank">
+                <a href='https://vigilant-meninsky-56e3d6.netlify.app/' id='projectLink' className='shadow-lg p-5 d-flex justify-content-center' target="_blank">
                 <img src='pet-app.png' id='projectImage' className="mx-2" />
                 </a>
             </div>
             <div className='pt-5 mx-5' id="title">
               Current Job
           </div>
-            <div id='project' className='  p-5 mt-5 shadow-lg'>
-                <a href='https://stage.ilearn-ksmhub.com/admin/login' className=' p-5 d-flex justify-content-center' target="_blank">
+            <div id='project' className='  p-5 mt-5'>
+                <a href='https://stage.ilearn-ksmhub.com/admin/login' id="projectLink" className='shadow-lg p-5 d-flex justify-content-center' target="_blank">
                 <img id='projectImage' src='iLearn.png' className="mx-2 " />
                 </a>
-                <div id="projectDetails" className='shadow-lg'>
+                <div id="projectDetails" className=''>
                     <div className=' d-flex justify-content-start'>
                         <h4>
                         <b>
