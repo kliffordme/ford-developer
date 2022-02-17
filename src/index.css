@@ -29,6 +29,7 @@ code {
 
 #profileImage{
   width: 150px;
+  border-radius: 1rem;
 }
 
 #profileContainer{
