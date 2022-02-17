@@ -60,12 +60,10 @@ export const Projects = () => {
                         </h4>
                         <a href='https://stage.ilearn-ksmhub.com/admin/login' target="_blank" className=' text-white mx-2'>Live</a>
                     </div>
-                    <div id='details' >
+                    <div >
                     <p>KSM Outsourcing Smart Solutions, Incorporation</p>
-                    <p>Position: Junior Developer (FULLSTACK)</p>
-                    <p>(July 2021 - Present)</p>
+                    <p>Position: Junior Developer (FULLSTACK) (July 2021 - Present)</p>
                     <p>programming languages used: React js, Javascript, Laravel, PHP.</p>
-                    <p>Styling: CSS and Boostrap</p>
                     <p>Theme: Metronic</p>
                     </div>
 
