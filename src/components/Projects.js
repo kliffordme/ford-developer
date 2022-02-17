@@ -14,7 +14,11 @@ export const Projects = () => {
               <img src='blog-app.png' id='projectImage' className="" />
               </a>
                 <div className='shadow-lg'  id='projectDetails'>
-                  <h4>YourBlog</h4>
+                  <h4>
+                    <b>
+                    YourBlog
+                    </b>
+                  </h4>
                   <p>a react-laravel full stack application where users can post, comment, like and follow other users.</p>
                   <p>programming languages used: React js, Javascript, Laravel, PHP.</p>
                   <p>Styling: CSS and Boostrap</p>
@@ -25,7 +29,11 @@ export const Projects = () => {
 
             <div id='project' className=' p-5 mt-5 shadow-lg'>
                 <div className='shadow-lg' id='projectDetails'>
-                  <h4>Ford's Pet Shop</h4>
+                  <h4>
+                    <b>
+                    Ford's Pet Shop
+                    </b>
+                  </h4>
                   <p>a small react application using third party API stripe.</p>
                   <p>programming languages used: React js, Javascript.</p>
                   <p>Styling: CSS and Boostrap</p>
@@ -46,7 +54,9 @@ export const Projects = () => {
                 <div id="projectDetails" className='shadow-lg'>
                     <div className=' d-flex justify-content-start'>
                         <h4>
+                        <b>
                         iLearn(Staging)
+                        </b>
                         </h4>
                         <a href='https://stage.ilearn-ksmhub.com/admin/login' target="_blank" className=' text-white mx-2'>Live</a>
                     </div>
