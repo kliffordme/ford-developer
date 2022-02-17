@@ -41,6 +41,11 @@ code {
 }
 
 
+#logoAdjustments{
+  margin: 2px;
+}
+
+
 #title{
   font-size: 2rem;
   font-weight: bold;
@@ -73,6 +78,7 @@ code {
 
 
 @media (min-width: 660px) {
+
   #home{
     background-image: url('/public/phoneprogram650.png');
     width: 100%;

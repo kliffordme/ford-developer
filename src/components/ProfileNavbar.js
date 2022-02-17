@@ -11,17 +11,19 @@ export const ProfileNavbar = () => {
         <Nav.Link href="#home">Home</Nav.Link>
         <Nav.Link href="#projects">Projects</Nav.Link>
         <Nav.Link href="#profile">Profile</Nav.Link>
-        <Nav.Link href="#contact">Contact Me</Nav.Link>
+        <Nav.Link href="#contact">Contact</Nav.Link>
       </Nav>
-      <a href='https://www.facebook.com/klifford.orquillas/' className='mx-2' target="_blank">
-      <img src='facebook.png' id="navLogo"/>
-      </a>
-      <a href='https://github.com/kliffordme' target="_blank">
-      <img src='github.png' id="navLogo"/>
-      </a>
-      <a href='https://twitter.com/fordorq' className='mx-2' target="_blank">
-      <img src='twitter.jpg' className='rounded' id="navLogo"  />
-      </a>
+      <div id='logoContainer'>
+        <a href='https://www.facebook.com/klifford.orquillas/' id='logoAdjustments' target="_blank">
+        <img src='facebook.png' id="navLogo"/>
+        </a>
+        <a href='https://github.com/kliffordme' id='logoAdjustments' target="_blank">
+        <img src='github.png' id="navLogo"/>
+        </a>
+        <a href='https://twitter.com/fordorq' id='logoAdjustments' target="_blank">
+        <img src='twitter.jpg' className='rounded' id="navLogo"  />
+        </a>
+      </div>
       </Container>
     </Navbar>
 
