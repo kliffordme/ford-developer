@@ -89,7 +89,7 @@ export const Languages = () => {
             Programming Experties
         </div>
         <div  className='d-flex flex-wrap justify-content-center' id="languageContainer">
-            {images.map((image)=> (<div key={image.id} className='rounded shadow-lg' id="languageAdjustments">
+            {images.map((image)=> (<div key={image.id} className=' shadow-lg' id="languageAdjustments">
                 <div  className=''> 
                 <div > 
                 <h3  className=''>

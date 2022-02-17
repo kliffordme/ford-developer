@@ -71,7 +71,7 @@ code {
 
 #languageAdjustments{
   background-color: rgb(42, 42, 46);
-
+  border-radius: 1rem;
   padding: 2rem;
   margin: 2rem;
 }
