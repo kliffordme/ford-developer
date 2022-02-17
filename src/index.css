@@ -60,11 +60,6 @@ code {
   border-radius: 1rem;
 }
 
-#projectDetails{
-  margin-top: 2rem;
-  padding: 3rem;
-}
-
 #languageImage{
   max-width: 100px;
 }
@@ -85,6 +80,10 @@ code {
   background-image: url('/public/programmer-phone.png');
   width: 100%;
   height: 100vh;
+}
+
+#projectDetails{
+  margin: 2rem 0;
 }
 
 
@@ -112,6 +111,12 @@ code {
     width: 100%;
     height: 100vh;
   }
+
+  #projectDetails{
+    margin-top: 2rem;
+    padding: 3rem;
+  }
+  
 
   #projectImage{
     width: 400px;
