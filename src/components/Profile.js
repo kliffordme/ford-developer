@@ -6,12 +6,12 @@ export const Profile = () => {
                 <div id="title" className='mx-5 py-5'>
             Profile
         </div>
-        <div id="project" className='d-flex flex-column '>
+        <div id="project" className='d-flex flex-column shadow-lg'>
 
-        <div className='d-flex justify-content-center m-5' >
+        <div className='d-flex justify-content-center m-5 ' >
             <img src='profile.png'  id='profileImage'/>
         </div>
-        <div className='' id="profileContainer">
+        <div className='shadow-lg' id="profileContainer">
             <h2 id='profileDetails'>Hi, I'm Klifford Orquillas</h2>
             <p id="profileDetails" className=''>
                 a motivated self-taught developer, who shows professionalism and dedication. 

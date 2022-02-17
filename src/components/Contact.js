@@ -26,7 +26,7 @@ export const Contact = () => {
         Contact
         </div>
         <div className='pb-3'>
-        <div  className=' p-4 rounded shadow-lg ' id='contactMain'>
+        <div  className=' p-4 shadow-lg ' id='contactMain'>
             <div id="contactContainer" >
             <h4 className='p-3 my-3'>
                 Get in touch, let's talk.
