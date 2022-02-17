@@ -1,23 +1,29 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import emailjs from 'emailjs-com'
 import { Button } from 'react-bootstrap';
+import { ClipLoader } from 'react-spinners';
 
 export const Contact = () => {
-    
+    const [loading, setLoading] = useState(false)
     const form = useRef();
+    const [success, setSuccess] = useState(false)
 
 
     const submit = (e) => {
         e.preventDefault()
-        
-
-        emailjs.sendForm('service_x239d3a', 'template_byb36sr', form.current, 'user_LqcvahmoJvnx8vA0boggP')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
-
+        setLoading(true)
+        try{
+            emailjs.sendForm('service_x239d3a', 'template_byb36sr', form.current, 'user_LqcvahmoJvnx8vA0boggP')
+            .then((result) => {
+                console.log(result.text);
+                setSuccess(true)
+            }, (error) => {
+                console.log(error.text);
+            });
+        }catch(e){
+            console.log(e)
+        }
+        setLoading(false)
     }
 
   return (
@@ -61,6 +67,10 @@ export const Contact = () => {
                                 <Button type="submit" variant='secondary' value="Send" >Send</Button>
                                 </div>
                         </form>
+                        <div className='d-flex justify-content-center mb-5'>
+                        <ClipLoader loading={loading}  color='white' />
+                        {success ? <div>Sent!</div> : null}
+                        </div>
                     </div>
                     <div>
                     <div id='contactDetails'  className='d-flex justify-content-center '>
