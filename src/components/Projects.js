@@ -44,6 +44,26 @@ export const Projects = () => {
                 <img src='pet-app.png' id='projectImage' className="mx-2" />
                 </a>
             </div>
+
+            <div id='project' className=' p-5 mt-5 shadow-lg'>
+              <a href='https://epic-brattain-e4eeaf.netlify.app/' id="projectLink" className='shadow-lg p-5 mb-2 d-flex justify-content-center' target="_blank">
+              <img src='chat.png' id='projectImage' className="" />
+              </a>
+                <div className=''  id='projectDetails'>
+                  <h4>
+                    <b>
+                    Chat-app (Socket.io)
+                    </b>
+                  </h4>
+                  <p>a react-app using popular third party api socket.io, perfect for real time application such as a chat-app.</p>
+                  <p>programming languages used: React js, Javascript.</p>
+                  <p>Styling: CSS and Boostrap</p>
+                  <a href='https://epic-brattain-e4eeaf.netlify.app/' target="_blank" className='text-white mx-2'>Live</a>
+                  <a href='https://github.com/kliffordme/chat-app-react' target="_blank" className='text-white mx-2'>Code</a>
+                </div>
+            </div>
+
+
             <div className='pt-5 mx-5' id="title">
               Current Job
           </div>
@@ -55,7 +75,7 @@ export const Projects = () => {
                     <div className=' d-flex justify-content-start'>
                         <h4>
                         <b>
-                        iLearn(Staging)
+                        iLearn (Staging)
                         </b>
                         </h4>
                         <a href='https://stage.ilearn-ksmhub.com/admin/login' target="_blank" className=' text-white mx-2'>Live</a>
