@@ -65,7 +65,7 @@ export const Projects = () => {
 
 
             <div className='pt-5 mx-5' id="title">
-              Current Job
+              Experience
           </div>
             <div id='project' className='  p-5 mt-5'>
                 <a href='https://stage.ilearn-ksmhub.com/admin/login' id="projectLink" className='shadow-lg p-5 d-flex justify-content-center' target="_blank">
