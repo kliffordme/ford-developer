@@ -82,7 +82,7 @@ export const Projects = () => {
                     </div>
                     <div >
                     <p>KSM Outsourcing Smart Solutions, Incorporation</p>
-                    <p>Position: Junior Developer (FULLSTACK) (July 2021 - Present)</p>
+                    <p>Position: Junior Developer (FULLSTACK) (June 2021 - February 2022)</p>
                     <p>programming languages used: React js, Javascript, Laravel, PHP.</p>
                     <p>Theme: Metronic</p>
                     </div>
