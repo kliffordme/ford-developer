@@ -73,40 +73,59 @@ export const Projects = () => {
                 </a>
                 <div id="projectDetails" className=''>
                     <div className=' d-flex justify-content-start'>
-                        <h4>
+                        <h4 className='pb-3'>
                         <b>
-                        iLearn (Staging)
+                        iLearn (Learning Management System)
                         </b>
                         </h4>
-                        <a href='https://stage.ilearn-ksmhub.com/admin/login' target="_blank" className=' text-white mx-2'>Live</a>
                     </div>
                     <div >
                     <p>KSM Outsourcing Smart Solutions, Incorporation</p>
                     <p>Position: Junior Developer (FULLSTACK) (May 2021 - February 2022)</p>
-                    <p>programming languages used: React js, Javascript, Laravel, CSS, HTML and PHP.</p>
-                    <p>Theme: Metronic</p>
+                    <p>programming languages used: ReactJs, Javascript, Laravel, CSS, HTML and PHP.</p>
                     </div>
-
                 </div>
             </div>
-            
             <div id='project' className=' p-5 mt-5 shadow-lg'>
                 <div className='' id='projectDetails'>
-                  <h4>
+                  <h4 className='pb-3'>
                     <b>
                     Singlife Philippines
                     </b>
                   </h4>
                   <p>Red Core Solutions Inc.</p>
-                  <p>Position: Junior Front-End Developer (February - Present 2022)</p>
-                  <p>programming languages used: React js, Javascript, Nodejs, CSS and HTML.</p>
+                  <p>Position: Junior Front-End Developer (February 2022 - Present)</p>
+                  <p>programming languages used: ReactJs, Javascript, Nodejs, AWS, CSS and HTML.</p>
                   <p>Visit Singlife Philippines 
                     <a href='https://singlife.com.ph/' target="_blank" className='text-white m-2'>here</a>
                   </p>
                 </div>
-                <a href='https://vigilant-meninsky-56e3d6.netlify.app/' id='projectLink' className='shadow-lg p-5 d-flex justify-content-center' target="_blank">
+                <a href='https://singlife.com.ph/' id='projectLink' className='shadow-lg p-5 d-flex justify-content-center' target="_blank">
                 <img src='singlife-logo.png' id='projectImage' className="mx-2" />
                 </a>
+            </div>
+            <div id='project' className='  p-5 mt-5'>
+                <a href='https://www.unicare.ph/' id="projectLink" className='shadow-lg p-5 d-flex justify-content-center' target="_blank">
+                <img id='projectImage' src='unicare.png' className="mx-2 " />
+                </a>
+                <div id="projectDetails" className=''>
+                    <div className=' d-flex justify-content-start'>
+                        <h4 className='pb-3'>
+                        <b>
+                        Unicare PH
+                        </b>
+                        </h4>
+                        <a href='https://www.unicare.ph/' target="_blank" className=' text-white mx-2'>Live</a>
+                    </div>
+                    <div >
+                    <p>Unicare Labs Incorporation</p>
+                    <p>Position: Junior Developer (FULLSTACK) (November 2022 - Present)</p>
+                    <p>programming languages used: NextJs, Javascript, Laravel, CSS, and Tailwind.</p>
+                    <p>Visit Unicare Philippines
+                    <a href='https://www.unicare.ph/' target="_blank" className='text-white m-2'>here</a>
+                  </p>
+                    </div>
+                </div>
             </div>
           </div>
         </div>
