@@ -81,6 +81,18 @@ export const Languages = () => {
             name: 'Firebase',
             img: '/firebase.png'
         },
+        {
+            id:14,
+            type: 'web service',
+            name: 'AWS',
+            img: '/aws-logo.png'
+        },
+        {
+            id:15,
+            type: 'coding language',
+            name: 'Typescript',
+            img: '/typescript-logo.png'
+        },
     ]
     
   return (
