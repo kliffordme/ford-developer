@@ -75,13 +75,12 @@ export const Projects = () => {
                     <div className=' d-flex justify-content-start'>
                         <h4 className='pb-3'>
                         <b>
-                        iLearn (Learning Management System)
+                        KSM Outsourcing Smart Solutions, Incorporation
                         </b>
                         </h4>
                     </div>
                     <div >
-                    <p>KSM Outsourcing Smart Solutions, Incorporation</p>
-                    <p>Position: Junior Developer (FULLSTACK) (May 2021 - February 2022)</p>
+                    <p>Position: Junior Developer (FULLSTACK) (March 2020 - June 2021)</p>
                     <p>programming languages used: ReactJs, Javascript, Laravel, CSS, HTML and PHP.</p>
                     </div>
                 </div>
@@ -93,8 +92,7 @@ export const Projects = () => {
                     Singlife Philippines
                     </b>
                   </h4>
-                  <p>Red Core Solutions Inc.</p>
-                  <p>Position: Junior Front-End Developer (February 2022 - Present)</p>
+                  <p>Position: Mid Level Front-End Developer (July 2021 - September 2022)</p>
                   <p>programming languages used: ReactJs, Javascript, Nodejs, AWS, CSS and HTML.</p>
                   <p>Visit Singlife Philippines 
                     <a href='https://singlife.com.ph/' target="_blank" className='text-white m-2'>here</a>
@@ -112,14 +110,13 @@ export const Projects = () => {
                     <div className=' d-flex justify-content-start'>
                         <h4 className='pb-3'>
                         <b>
-                        Unicare PH
+                        Unicare Labs Incorporation
                         </b>
                         </h4>
                         <a href='https://www.unicare.ph/' target="_blank" className=' text-white mx-2'>Live</a>
                     </div>
                     <div >
-                    <p>Unicare Labs Incorporation</p>
-                    <p>Position: Junior Developer (FULLSTACK) (November 2022 - Present)</p>
+                    <p>Position: Senior Developer (FULLSTACK) (Project Based)</p>
                     <p>programming languages used: NextJs, Javascript, Laravel, CSS, and Tailwind.</p>
                     <p>Visit Unicare Philippines
                     <a href='https://www.unicare.ph/' target="_blank" className='text-white m-2'>here</a>
