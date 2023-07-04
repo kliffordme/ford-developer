@@ -5,7 +5,7 @@ export const Projects = () => {
   return (
     <div id='projects'  className='bg-dark text-white py-5'>
       <div className='py-3 mx-5' id="title">
-              Recent Projects
+              Personal Projects
       </div>
       <div>
         <div className='position-relative'>
