@@ -80,7 +80,7 @@ export const Projects = () => {
                         </h4>
                     </div>
                     <div >
-                    <p>Position: Junior Developer (FULLSTACK) (March 2020 - June 2021)</p>
+                    <p>Position: Junior Developer (FULLSTACK) (Feb 2019 - May 2020)</p>
                     <p>programming languages used: ReactJs, Javascript, Laravel, CSS, HTML and PHP.</p>
                     </div>
                 </div>
@@ -89,10 +89,10 @@ export const Projects = () => {
                 <div className='' id='projectDetails'>
                   <h4 className='pb-3'>
                     <b>
-                    Singlife Philippines
+                    Red Core I.T Solutions
                     </b>
                   </h4>
-                  <p>Position: Mid Level Front-End Developer (July 2021 - September 2022)</p>
+                  <p>Position: Senior]Developer (FULLSTACK) (June 2020 - Jan 2024)</p>
                   <p>programming languages used: ReactJs, Javascript, Nodejs, AWS, CSS and HTML.</p>
                   <p>Visit Singlife Philippines 
                     <a href='https://singlife.com.ph/' target="_blank" className='text-white m-2'>here</a>
